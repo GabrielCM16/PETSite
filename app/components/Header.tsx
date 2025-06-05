@@ -1,4 +1,4 @@
-import { Button, ButtonText, Divider, Image, Menu, MenuItem, MenuItemLabel, Text, View } from "@gluestack-ui/themed";
+import { ButtonText, Divider, Image, View } from "@gluestack-ui/themed";
 import Link from "next/link";
 
 export default function Header() {
@@ -11,24 +11,11 @@ export default function Header() {
                 <Link href="/" style={{ fontFamily: "Hind", fontSize: 20, fontWeight: 'bold', textDecoration: 'none', color: 'black' }} passHref>INÍCIO</Link>
                 <Divider marginHorizontal={35} orientation="vertical" bgColor="$black" height={33} w={2} />
 
-                <Menu
-                    placement="bottom"
-                    trigger={({ ...triggerProps }) => {
-                        return (
-                            <Button variant="link" {...triggerProps}>
-                                <ButtonText color="$black" fontSize={20} bold>MEMBROS</ButtonText>
-                            </Button>
-                        );
-                    }}
-                >
-                    <MenuItem alignItems="center" justifyContent="center" key="Atuais" textValue="Atuais">
-                        <Link href="/membros" style={{ fontFamily: "Hind", fontSize: 20, fontWeight: 'bold', textDecoration: 'none', color: 'white' }} passHref>MEMBROS</Link>
-                    </MenuItem>
-                    <MenuItem alignItems="center" justifyContent="center" key="Ex" textValue="Ex-membros">
-                        <Link href="/ex-membros" style={{ fontFamily: "Hind", fontSize: 20, fontWeight: 'bold', textDecoration: 'none', color: 'white' }} passHref>EX-MEMBROS</Link>
-                    </MenuItem>
-                </Menu>
-                {/* <Link href="/membros" style={{ fontFamily: "Hind", fontSize: 20, fontWeight: 'bold', textDecoration: 'none', color: 'black' }} passHref>MEMBROS</Link> */}
+                <Link href="/membros" style={{ fontFamily: "Hind", fontSize: 20, fontWeight: 'bold', textDecoration: 'none', color: 'black' }} passHref>MEMBROS ATUAIS</Link>
+                <Divider marginHorizontal={35} orientation="vertical" bgColor="$black" height={33} w={2} />
+
+                <Link href="/ex-membros" style={{ fontFamily: "Hind", fontSize: 20, fontWeight: 'bold', textDecoration: 'none', color: 'black' }} passHref>EX-MEMBROS</Link>
+
                 <Divider marginHorizontal={35} orientation="vertical" bgColor="$black" height={33} w={2} />
                 <Link href="/sala" style={{ fontFamily: "Hind", fontSize: 20, fontWeight: 'bold', textDecoration: 'none', color: 'black' }} passHref>SALA</Link>
             </nav>

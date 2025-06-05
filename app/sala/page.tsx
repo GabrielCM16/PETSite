@@ -20,7 +20,7 @@ export default function Home() {
                 <Text size='2xl' mt={50} maxWidth={1100} textAlign='center'>A Sala de Estudos atual do PETComp localiza-se em:</Text>
                 <Text size='2xl' mt={10} maxWidth={650} textAlign='center' bold>Rua Universitária, n° 2069,Bloco F, sala 15, CEP 85819-110, Bairro Jardim Universitário, Cascavel - PR.</Text>
 
-                <Card bgColor='$surface' mt={50} borderRadius={25} alignItems='center' justifyContent='center' width={400} height={150}>
+                <Card bgColor='$surface' mt={50} borderRadius={25} alignItems='center' justifyContent='center' width={400} height={150} marginBottom={50}>
                     <Text size='2xl' textAlign='center'>
                         Dias e horários de atendimento:
                         Segunda a sexta, das <Text size='2xl' bold>8h às 22h</Text>.

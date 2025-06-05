@@ -30,25 +30,25 @@ export default function Home() {
                     <Link href={'https://gamejolt.com/search/games?q=abgamejam2'}><Text size='xl'>II 2018</Text></Link>
                     <Link href={'https://gamejolt.com/search/games?q=abgamejam'}><Text size='xl'>I 2018</Text></Link>
                 </Box>
-                <Image backgroundColor='$surface' width={1000} height={290} source={require('@/public/Logo_PETComp.png')} alt="Logo Petcomp" mt={20} />
+                <Image backgroundColor='$surface' width={700} height={290} source={require('@/public/images/projects/GameJam.png')} alt="Logo Petcomp" mt={20} />
             </Box>
 
             <Box flex={1} alignItems="center" mt={70}>
                 <Heading size='3xl'>Coleta de lixo eletrônico</Heading>
                 <Text size='2xl' maxWidth={1200} textAlign='center'>O grupo disponibiliza lixeiras exclusivas para a coleta de lixo eletrônico no Campus da Unioeste Cascavel. Essa iniciativa visa principalmente auxiliar a comunidade na destinação adequada desse tipo de resíduo.</Text>
-                <Image backgroundColor='$surface' width={1000} height={290} source={require('@/public/Logo_PETComp.png')} alt="Logo Petcomp" mt={20} />
+                <Image backgroundColor='$surface' width={600} height={470} source={require('@/public/images/projects/Lixo.png')} alt="Logo Petcomp" mt={20} />
             </Box>
 
             <Box flex={1} alignItems="center" mt={70}>
                 <Heading size='3xl'>Divulgação do curso</Heading>
                 <Text size='2xl' maxWidth={1200} textAlign='center'>Para promover o curso de Ciência da Computação da Unioeste de Cascavel, a equipe se compromete a realizar visitas em escolas como uma estratégia fundamental de divulgação. Essa iniciativa visa não apenas informar a comunidade sobre as oportunidades educacionais disponíveis, mas também atrair potenciais interessados na área.</Text>
-                <Image backgroundColor='$surface' width={1000} height={290} source={require('@/public/Logo_PETComp.png')} alt="Logo Petcomp" mt={20} />
+                <Image backgroundColor='$surface' width={800} height={500} source={require('@/public/images/projects/DivulgacaoCurso.jpg')} alt="Logo Petcomp" mt={20} />
             </Box>
 
             <Box flex={1} alignItems="center" mt={70}>
                 <Heading size='3xl'>DOCOM</Heading>
                 <Text size='2xl' maxWidth={1200} textAlign='center'>Para documentar e divulgar as atividades realizadas, o grupo registra todos os projetos em locais de acesso exclusivo para os petianos vigentes e futuros, além de compartilhar publicamente suas atividades no <Link style={{ color: 'white' }} href={'https://www.instagram.com/petcomp_unioeste/'}>Instagram</Link>.</Text>
-                <Image backgroundColor='$surface' width={1000} height={290} source={require('@/public/Logo_PETComp.png')} alt="Logo Petcomp" mt={20} />
+                <Image backgroundColor='$surface' width={600} height={550} source={require('@/public/images/projects/Intagram1.png')} alt="Logo Petcomp" mt={20} />
             </Box>
 
             <Box flex={1} alignItems="center" mt={70} px={50}>
@@ -61,7 +61,7 @@ export default function Home() {
                             Em 2024, o PETComp promoverá um Minicurso de Programação aberto à comunidade interna e externa da Unioeste. O objetivo principal deste minicurso é introduzir conceitos fundamentais de lógica de programação. Este ano, o curso será ministrado utilizando a linguagem Python.
                         </Text>
                     </Box>
-                    <Image backgroundColor='$surface' width={400} height={400} source={require('@/public/Logo_PET.png')} alt='logo pet' />
+                    <Image backgroundColor='$surface' width={400} height={400} source={require('@/public/images/projects/MiniCursoProgramacao.png')} alt='logo pet' />
                 </Box>
                 <Box maxWidth={1000} mt={30} width={'100%'} flexDirection='row' justifyContent='space-between'>
                     <Box width={'50%'}>
@@ -70,20 +70,20 @@ export default function Home() {
                             Todas as segundas-feiras, às 17:00h, a equipe realiza monitorias da disciplina de algoritmos destinadas aos estudantes do 1° ano de Ciência da Computação da Unioeste de Cascavel. O propósito principal deste projeto é auxiliar os alunos, fornecendo suporte para esclarecer suas dúvidas relacionadas à disciplina.
                         </Text>
                     </Box>
-                    <Image backgroundColor='$surface' width={400} height={400} source={require('@/public/Logo_PET.png')} alt='logo pet' />
+                    <Image backgroundColor='$surface' width={400} height={400} source={require('@/public/images/projects/MonitoriaAlgoritmos.png')} alt='logo pet' />
                 </Box>
             </Box>
 
             <Box flex={1} alignItems="center" mt={70}>
                 <Heading size='3xl'>PETVoluntário</Heading>
                 <Text size='2xl' maxWidth={1200} textAlign='center'>Este projeto visa realizar atividades que beneficiem a comunidade externa, tais como doação de sangue, arrecadação de itens materiais para aqueles que necessitam, e outras iniciativas com propósito semelhante.</Text>
-                <Image backgroundColor='$surface' width={1000} height={290} source={require('@/public/Logo_PETComp.png')} alt="Logo Petcomp" mt={20} />
+                <Image backgroundColor='$surface' width={600} height={600} source={require('@/public/images/projects/Volutariado.png')} alt="Logo Petcomp" mt={20} />
             </Box>
 
             <Box flex={1} alignItems="center" mt={70} mb={50}>
                 <Heading size='3xl'>Recepção dos Calouros</Heading>
                 <Text size='2xl' maxWidth={1200} textAlign='center'>Para facilitar a integração dos novos calouros ao curso de Ciência da Computação na universidade, o PET realiza uma apresentação abordando o programa, o funcionamento do sistema universitário e informações essenciais que os alunos necessitam conhecer.</Text>
-                <Image backgroundColor='$surface' width={1000} height={290} source={require('@/public/Logo_PETComp.png')} alt="Logo Petcomp" mt={20} />
+                <Image backgroundColor='$surface' width={800} height={800} source={require('@/public/images/projects/RecepcaoDosCalourouAno1500.jpg')} alt="Logo Petcomp" mt={20} />
             </Box>
 
 

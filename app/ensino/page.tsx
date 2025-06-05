@@ -19,7 +19,7 @@ export default function Home() {
             </Box>
             <Box margin={'auto'} maxWidth={1300} my={80} >
                 <div style={{ display: 'grid', gridTemplateColumns: '5fr 6fr', columnGap: 20 }} >
-                    <Image tintColor={'$white'} width={550} height={300} backgroundColor='$surface' source={require('@/public/Logo_PET.png')} alt='###INSERIR DESCRIÇÃO###' />
+                    <Image width={550} height={400} backgroundColor='$surface' source={require('@/public/images/projects/AvaliacaoDicip.jpg')} alt='###INSERIR DESCRIÇÃO###' />
                     <Box>
                         <Heading size='3xl'>Avaliação das disciplinas</Heading>
                         <Text size='2xl'>
@@ -35,11 +35,11 @@ export default function Home() {
                             Neste projeto, a cada quinze dias, é designado a uma dupla de petianos (inclusive o tutor), o compromisso de apresentar na reunião semanal o feedback de um livro leram ou estejam em processo de leitura.
                         </Text>
                     </Box>
-                    <Image tintColor={'$white'} width={550} height={300} backgroundColor='$surface' source={require('@/public/Logo_PET.png')} alt='###INSERIR DESCRIÇÃO###' />
+                    <Image width={550} height={300} backgroundColor='$surface' source={require('@/public/images/projects/Biblioteca.png')} alt='###INSERIR DESCRIÇÃO###' />
                 </div>
 
                 <div style={{ display: 'grid', gridTemplateColumns: '5fr 6fr', columnGap: 20, marginTop: 40 }} >
-                    <Image tintColor={'$white'} width={550} height={300} backgroundColor='$surface' source={require('@/public/Logo_PET.png')} alt='###INSERIR DESCRIÇÃO###' />
+                    <Image width={550} height={300} backgroundColor='$surface' source={require('@/public/images/projects/CinePET.jpg')} alt='###INSERIR DESCRIÇÃO###' />
                     <Box>
                         <Heading size='3xl'>CinePET</Heading>
                         <Text size='2xl'>
@@ -55,11 +55,11 @@ export default function Home() {
                             O CiPET tem como objetivo oferecer cursos, palestras e painéis à comunidade acadêmica. Sendo assim, o grupo PETComp regularmente convida profissionais de diversas áreas, com enfoque na ciência da computação, para ministrarem essas atividades aos estudantes.
                         </Text>
                     </Box>
-                    <Image tintColor={'$white'} width={550} height={300} backgroundColor='$surface' source={require('@/public/Logo_PET.png')} alt='###INSERIR DESCRIÇÃO###' />
+                    <Image width={550} height={300} backgroundColor='$surface' source={require('@/public/images/projects/CIPET.png')} alt='###INSERIR DESCRIÇÃO###' />
                 </div>
 
                 <div style={{ display: 'grid', gridTemplateColumns: '5fr 6fr', columnGap: 20, marginTop: 40 }} >
-                    <Image tintColor={'$white'} width={550} height={300} backgroundColor='$surface' source={require('@/public/Logo_PET.png')} alt='###INSERIR DESCRIÇÃO###' />
+                    <Image width={550} height={300} backgroundColor='$surface' source={require('@/public/Logo_PET.png')} alt='###INSERIR DESCRIÇÃO###' />
                     <Box>
                         <Heading size='3xl'>Pet in english</Heading>
                         <Text size='2xl'>
@@ -78,11 +78,11 @@ export default function Home() {
                             A cada duas semanas, um membro do grupo prepara e conduz um seminário sobre um tópico de interesse pessoal, não necessariamente ligado à computação. O objetivo principal deste projeto é melhorar as habilidades de comunicação oral e corporal dos petianos durante as apresentações.
                         </Text>
                     </Box>
-                    <Image tintColor={'$white'} width={550} height={300} backgroundColor='$surface' source={require('@/public/Logo_PET.png')} alt='###INSERIR DESCRIÇÃO###' />
+                    <Image width={550} height={300} backgroundColor='$surface' source={require('@/public/images/projects/SeminariosMult.png')} alt='###INSERIR DESCRIÇÃO###' />
                 </div>
 
                 <div style={{ display: 'grid', gridTemplateColumns: '5fr 6fr', columnGap: 20, marginTop: 40 }} >
-                    <Image tintColor={'$white'} width={550} height={300} backgroundColor='$surface' source={require('@/public/Logo_PET.png')} alt='###INSERIR DESCRIÇÃO###' />
+                    <Image width={550} height={300} backgroundColor='$surface' source={require('@/public/images/projects/VisitasTec.png')} alt='###INSERIR DESCRIÇÃO###' />
                     <Box>
                         <Heading size='3xl'>Visitas técnicas/culturais</Heading>
                         <Text size='2xl'>
